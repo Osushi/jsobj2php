@@ -1,4 +1,4 @@
-# SimpleSocket
+# jsobj2php
 [![Packagist](https://img.shields.io/packagist/v/osushi/jsobj2php.svg)](https://packagist.org/packages/osushi/jsobj2php)
 
 
