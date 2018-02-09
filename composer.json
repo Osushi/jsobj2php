@@ -1,0 +1,29 @@
+{
+    "name": "osushi/jsobj2php",
+    "description": "Convert into php array from javascript object",
+    "keywords": ["js", "object", "convert"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/Osushi/jsobj2php",
+    "authors": [
+        {
+            "name": "Osushi",
+            "homepage": "https://github.com/Osushi",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JsObj2Php\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
