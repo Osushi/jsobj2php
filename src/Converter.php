@@ -14,6 +14,7 @@ class Converter
     self::validate($str);
     $str = preg_replace('/([a-zA-Z0-9\_]+):/', '"$1":', $str);
     $str = preg_replace('/\"[a-zA-Z0-9\_]+\":undefined,/', '', $str);
+    $str = str_replace([',]', ',}'], [']', '}'], $str);
 
     return json_decode(unicode_decode($str), $isArray);
   }

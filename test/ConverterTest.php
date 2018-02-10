@@ -15,7 +15,8 @@ class ConverterTest extends \PHPUnit\Framework\TestCase
       '{und:undefined,"baz":[1,2,"3"]}',
       '{arr:["a","b"],"baz":"foo","gar":{"faz":false,t:"2"},f:false}',
       '{name:"Andrew", age: "11", toys: { car: [{color:"red", wheel: "1"} ,{color:"white", wheel: "4"}]}, bus: [ {av: "Mug 2013", var: [ {color:"red", wheel: "10"} ,{color:"white", wheel: "34"}], totl: 10,buy: true}]}',
-      '{baseprice:3300,items:[{id:1,price:1000,commnet:"foo",memo:[]},{id:2,price:2000,memo:[]}],counts:[10, 20],message:"ほげ",pickup:{id:1,price:1000,commnet:"foo",memo:[0, 1, 2]}}'
+      '{baseprice:3300,items:[{id:1,price:1000,commnet:"foo",memo:[]},{id:2,price:2000,memo:[]}],counts:[10, 20],message:"ほげ",pickup:{id:1,price:1000,commnet:"foo",memo:[0, 1, 2]}}',
+      '{items:[{id:1,price:1000,commnet:"foo",memo:[]},{id:2,price:2000,memo:[]},],}',
     ];
 
     foreach ($fixtures as $fixture) {
