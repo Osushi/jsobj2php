@@ -1,4 +1,6 @@
-# SimpleSocket
+# jsobj2php
+[![Packagist](https://img.shields.io/packagist/v/osushi/jsobj2php.svg)](https://packagist.org/packages/osushi/jsobj2php)
+
 
 Functions
 ---
@@ -34,7 +36,7 @@ message:"ほげ",
 pickup:{id:1,price:1000,commnet:"foo",memo:[0, 1, 2]}
 }';
 
-var_export(Converter::execute($str, true)); // If set `Converter::execute($str)`, is able to get stdClass object.
+var_export(Converter::execute($str, true)); // If here sets `Converter::execute($str)`, you can get stdClass object.
 /*
 array (
   'baseprice' => 3300,
